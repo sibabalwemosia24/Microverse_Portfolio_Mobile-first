@@ -1,7 +1,8 @@
 * {
   width: 390px;
 }
-/*Toolbar*/
+
+/* Toolbar */
 .toolbar {
    display: flex;
   justify-content: space-between;
@@ -9,13 +10,11 @@
 }
 
 .logo {
-  color: #6070FF;
+  color: #6070ff;
   font-family: Poppins, sans-serif;
- 
 }
 
 .hamburger { 
-  
   width: 20px;
   height: 18px;
 }

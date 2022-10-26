@@ -1,0 +1,21 @@
+* {
+  width: 390px;
+}
+/*Toolbar*/
+.toolbar {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #6070FF;
+  font-family: Poppins, sans-serif;
+ 
+}
+
+.hamburger { 
+  
+  width: 20px;
+  height: 18px;
+}

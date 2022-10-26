@@ -13,7 +13,6 @@
 .logo {
   color: #6070ff;
   font-family: Poppins, sans-serif;
-  
 }
 
 .hamburger {
@@ -26,7 +25,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
 }
 
 h2 {
@@ -38,7 +36,6 @@ h2 {
   line-height: 52px;
   color: #172B4D;
   padding-left: 12px;
-
 }
 
 p {

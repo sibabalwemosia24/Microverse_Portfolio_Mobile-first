@@ -8,16 +8,19 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 12px;
+  width: 360px;
 }
 
 .logo {
   color: #6070ff;
   font-family: Poppins, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .hamburger {
   width: 20px;
-  height: 18px;
+  height: 16px;
 }
 
 /* Headline */
@@ -25,9 +28,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-image: url(./images/header-shapes.png);
+  background-repeat: space;
+  background-size: 100% auto;
+  padding-top: 150px;
 }
 
-h2 {
+.greeting {
   width: 327px;
   height: 150px;
   font-family: Poppins, sans-serif;
@@ -38,11 +45,31 @@ h2 {
   padding-left: 12px;
 }
 
-p {
+.bio {
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
   padding-left: 12px;
+}
+
+.connect {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding-left: 12px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
 }

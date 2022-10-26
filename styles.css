@@ -1,0 +1,80 @@
+/* Toolbar */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  width: 360px;
+  max-width: 768px;
+}
+
+.logo {
+  color: #6070ff;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.hamburger {
+  width: 20px;
+  height: 16px;
+}
+
+/* Headline */
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: static;
+  top: 100px;
+  padding-top: 100px;
+  background-image: url(./images/header-shapes.png);
+  background-repeat: space;
+  width: 390px;
+  max-width: 768px;
+}
+
+.greeting {
+  width: 327px;
+  height: 150px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding-left: 12px;
+  position: static;
+  bottom: 80px;
+}
+
+.bio {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-left: 12px;
+  width: 300px;
+}
+
+.connect {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding-left: 12px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  list-style: none;
+  padding-left: 11px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}

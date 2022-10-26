@@ -33,3 +33,10 @@ Portfolio website to showcase previous projects.
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Figma
+
+## License
+This Poject is [MIT](./MIT.md) licensed

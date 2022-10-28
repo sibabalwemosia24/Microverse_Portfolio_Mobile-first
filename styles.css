@@ -45,7 +45,7 @@
   color: #172b4d;
   padding-left: 12px;
   position: static;
-  bottom: 80px;
+  /*bottom: 80px;*/
 }
 
 .bio {
@@ -195,6 +195,83 @@
 }
 
 .tonic7:hover {
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   background: #6070ff;
   color: white;
+}
+
+/* About Myself */
+.about-myself {
+  display: grid;
+  grid-column-gap: 10px;
+  border-radius: 0% 20% 0% 0%;
+  width: 320px;
+  padding: 16px;
+  background: #ffffff;
+
+}
+
+.about-myself-a {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 52px;
+  color: #172b4d;
+  padding-bottom: 0px;
+}
+
+.info {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.contact {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.get-my-resume {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 162px;height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.get-my-resume:hover {
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  color: white;
+}
+
+.languages {
+display: grid;
+align-items: left;
+list-style: none;
+padding-left: 0px;
 }

@@ -32,6 +32,7 @@
   background-repeat: space;
   width: 390px;
   max-width: 768px;
+  padding-bottom: 100px;
 }
 
 .greeting {
@@ -77,4 +78,120 @@
 .social-icon {
   width: 20px;
   height: 20px;
+}
+
+/* Works */
+.works {
+  padding: 50px 24px 12px 12px;
+}
+.tonic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  width: 300px;
+  padding: 12px 10px 8px 12px;
+}
+
+.tonic2 {
+  width: 195px;
+  height: 20px;
+  padding: 50px;
+}
+
+.tonic3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+.tonic4 {
+  display: grid;
+  grid-template-columns: 80px 130px 60px;
+  align-items: center;
+  list-style: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 1px;
+}
+
+.tonic4b {
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 30px;
+  color: #7a869a;
+}
+
+.tonic4b:before {
+  width: 30px;
+  height: 300em;
+  padding-right: 20px;
+  font-weight: 700;
+  color: #c1c7d0;
+  text-align: right;
+  content:"\2022";
+}
+
+.tonic5 {
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tonic6 {
+  display: grid;
+  grid-template-columns: 40px 40px 80px;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0%;
+  width: 180px;
+}
+
+.tonic6a {
+  border-radius: 8px;
+  padding: 5px;
+  background: #ebebff;
+  color:  #6070ff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tonic7 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+width: 124px;
+height: 48px;
+border: 1px solid #6070FF;
+border-radius: 8px;
+justify-self: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+color: #396DF2;
+}
+
+.tonic7:hover {
+  background: #6070FF;
+  color: white;
 }

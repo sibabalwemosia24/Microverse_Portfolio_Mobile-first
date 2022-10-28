@@ -88,7 +88,7 @@
   width: 390px;
 }
 
-.tonic {
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,13 +98,13 @@
   padding: 12px 10px 20px 12px;
 }
 
-.tonic2 {
+.project-screenshot {
   width: 195px;
   height: 20px;
   padding: 50px;
 }
 
-.tonic3 {
+.project-name {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -113,7 +113,7 @@
   color: #172b4d;
 }
 
-.tonic4 {
+.experience {
   display: grid;
   grid-template-columns: 80px 130px 60px;
   align-items: center;
@@ -126,7 +126,7 @@
   padding-left: 1px;
 }
 
-.tonic4b {
+.position-year {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -135,7 +135,7 @@
   color: #7a869a;
 }
 
-.tonic4b::before {
+.position-year::before {
   width: 30px;
   height: 300em;
   padding-right: 20px;
@@ -145,7 +145,7 @@
   content: "\2022";
 }
 
-.tonic5 {
+.description {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -154,7 +154,7 @@
   color: #344563;
 }
 
-.tonic6 {
+.language {
   display: grid;
   grid-template-columns: 40px 40px 80px;
   justify-content: space-between;
@@ -163,7 +163,7 @@
   width: 180px;
 }
 
-.tonic6a {
+.language-a {
   border-radius: 8px;
   padding: 5px;
   background: #ebebff;
@@ -175,7 +175,7 @@
   line-height: 16px;
 }
 
-.tonic7 {
+.see-project {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -194,7 +194,7 @@
   color: #396df2;
 }
 
-.tonic7:hover {
+.see-project:hover {
   box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   background: #6070ff;
   color: white;
@@ -265,7 +265,7 @@
 }
 
 .get-my-resume:hover {
-  box-shadow: 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   background: #6070ff;
   color: white;
 }
@@ -274,5 +274,5 @@
   display: grid;
   align-items: left;
   list-style: none;
-  padding-left: 1px;
+  padding: 1px;
 }

@@ -82,7 +82,10 @@
 
 /* Works */
 .works {
+  display: grid;
+  grid-row-gap: 100px;
   padding: 50px 24px 12px 12px;
+  width: 390px;
 }
 
 .tonic {
@@ -92,7 +95,7 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   width: 300px;
-  padding: 12px 10px 8px 12px;
+  padding: 12px 10px 20px 12px;
 }
 
 .tonic2 {
@@ -105,7 +108,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 44px;
   color: #172b4d;
 }

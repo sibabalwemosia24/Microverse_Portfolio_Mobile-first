@@ -275,3 +275,93 @@
   list-style: none;
   padding: 1px;
 }
+
+/* contact me */
+.contact-me {
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  height: 779px;
+  left: 0px;
+  top: 5410px;
+  padding-top: 40px;
+  background: #6070FF;
+  background-image: url(./images/contact-form-shapes-mobile.png);
+  background-repeat: space;
+  border-radius: 12px 0px 0px 0px;
+}
+
+.footer-head {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer-par {
+  width: 300px;
+  height: 102px;
+  left: 24px;
+  top: 4802px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+}
+.text-boxes {
+  display: grid;
+  grid-row: inherit;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0%;
+  width: 180px;
+  padding-top: 60px;
+  height: 300px;
+
+}
+
+.text-boxes-a {
+  width: 280px;
+  height: 40px;
+  border: 1px solid #CFD8DC;
+
+}
+
+.text-boxes-b {
+  width: 280px;
+  height: 150px;
+  border: 1px solid #CFD8DC;
+}
+
+.g-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 130px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  justify-self: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.g-button:hover {
+  box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  color: white;
+}

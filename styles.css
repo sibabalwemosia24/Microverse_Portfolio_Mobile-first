@@ -275,6 +275,7 @@
   list-style: none;
   padding: 1px;
 }
+
 .contact-me {
   display: flex;
   justify-content: center;
@@ -283,10 +284,15 @@
   left: 0px;
   top: 5410px;
   padding-top: 40px;
-  background: #6070FF;
+  background: #6070ff;
+  border-radius: 90px 0px 0px 0px;
+}
+
+.contact-me-b {
   background-image: url(./images/contact-form-shapes-mobile.png);
-  background-repeat: space;
-  border-radius: 12px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 60px;
 }
 
 .footer-head {

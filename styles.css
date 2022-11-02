@@ -281,11 +281,11 @@
   justify-content: center;
   width: 375px;
   height: 779px;
-  left: 0px;
+  left: 1px;
   top: 5410px;
   padding-top: 40px;
   background: #6070ff;
-  border-radius: 90px 0px 0px 0px;
+  border-top-left-radius: 90px;
 }
 
 .contact-me-b {
@@ -335,13 +335,13 @@
 .text-boxes-a {
   width: 280px;
   height: 40px;
-  border: 1px solid #cFd8dc;
+  border: 1px solid #cfd8dc;
 }
 
 .text-boxes-b {
   width: 280px;
   height: 150px;
-  border: 1px solid #cFd8dc;
+  border: 1px solid #cfd8dc;
 }
 
 .g-button {

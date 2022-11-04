@@ -5,7 +5,6 @@
   align-items: center;
   padding-left: 12px;
   width: 360px;
-  max-width: 768px;
 }
 
 .logo {
@@ -16,8 +15,16 @@
 }
 
 .hamburger {
-  width: 20px;
-  height: 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.hamburger-a {
+  border: 2px solid #6070FF;
 }
 
 /* Headline */

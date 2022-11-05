@@ -286,7 +286,6 @@
 .contact-me {
   display: flex;
   justify-content: center;
-  width: 375px;
   height: 779px;
   left: 1px;
   top: 5410px;
@@ -300,11 +299,15 @@
 }
 
 /* Get in Contact */
-.contact-me-c {
+.contact-me {
+  display: flex;
+  align-content: center;
   background-image: url(./images/contact-form-shapes-mobile.png);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center;
+  background-size: 38vh, 80vw;
   padding-top: 60px;
+  padding-left: 10px;
 }
 
 .footer-head {
@@ -320,7 +323,7 @@
 }
 
 .footer-par {
-  width: 300px;
+  /*width: 300px;*/
   height: 102px;
   left: 24px;
   top: 4802px;
@@ -338,7 +341,7 @@
   grid-row: inherit;
   justify-content: space-between;
   list-style: none;
-  padding-left: 0%;
+  padding-left: 1px;
   width: 180px;
   padding-top: 60px;
   height: 300px;
@@ -392,6 +395,12 @@
     display: flex;
     justify-content: space-around;
     padding-left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
   }
 
   /* Headline */
@@ -491,5 +500,39 @@
   .skills-button {
     width: 600px;
     height: 90px;
+  }
+
+  /* Contact Me */
+  .contact-me {
+    background-image: url(./images/contact-form1-background-shapes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-content: center;
+    width: 1440px;
+    height: 860px;
+  }
+
+  .contact-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 801px;
+    height: 577px;
+    padding-left: 30px;
+  }
+
+  .contact-me-b {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .text-boxes {
+    display: grid;
+    grid-template-rows: 60px 80px 150px;
+    align-content: center;
+    width: 400px;
+    height: 500px;
   }
 }

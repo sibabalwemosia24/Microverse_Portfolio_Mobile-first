@@ -437,7 +437,6 @@
     width: 544px;
     height: 448px;
   }
-  
   /* About Myself */
   .about-myself {
     display: flex;
@@ -474,7 +473,6 @@
     font-size: 16px;
     line-height: 24px;
   }
-  
   .languages {
     width: 684px;
     height: 360px;
@@ -490,9 +488,8 @@
   .language-used {
     display: none;
   }
-  
   .skills-button {
-    width: 640px;
-    height: 80px;
+    width: 600px;
+    height: 90px;
   }
 }

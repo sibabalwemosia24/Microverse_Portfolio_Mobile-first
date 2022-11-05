@@ -299,7 +299,7 @@
 }
 
 /* Get in Contact */
-.contact-me {
+.contact-me-b {
   display: flex;
   align-content: center;
   background-image: url(./images/contact-form-shapes-mobile.png);
@@ -323,7 +323,6 @@
 }
 
 .footer-par {
-  /*width: 300px;*/
   height: 102px;
   left: 24px;
   top: 4802px;
@@ -395,7 +394,7 @@
     display: flex;
     justify-content: space-around;
     padding-left: 50px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -446,6 +445,7 @@
     width: 544px;
     height: 448px;
   }
+  
   /* About Myself */
   .about-myself {
     display: flex;
@@ -482,6 +482,7 @@
     font-size: 16px;
     line-height: 24px;
   }
+  
   .languages {
     width: 684px;
     height: 360px;
@@ -497,6 +498,7 @@
   .language-used {
     display: none;
   }
+
   .skills-button {
     width: 600px;
     height: 90px;
@@ -504,6 +506,11 @@
 
   /* Contact Me */
   .contact-me {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .contact-me-b {
     background-image: url(./images/contact-form1-background-shapes.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -513,7 +520,7 @@
     height: 860px;
   }
 
-  .contact-b {
+ .contact-b {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -521,13 +528,7 @@
     height: 577px;
     padding-left: 30px;
   }
-
-  .contact-me-b {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-  }
-
+  
   .text-boxes {
     display: grid;
     grid-template-rows: 60px 80px 150px;

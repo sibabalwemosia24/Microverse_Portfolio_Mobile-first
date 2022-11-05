@@ -382,7 +382,7 @@
     width: 259px;
     padding-right: 142px;
   }
-  
+
   .nav-bar-a {
     list-style: none;
     display: flex;
@@ -413,6 +413,7 @@
     line-height: 28px;
   }
 
+/* Works */
   .project {
     display: flex;
     flex-direction: row;

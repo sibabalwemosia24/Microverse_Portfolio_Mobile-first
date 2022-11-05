@@ -213,7 +213,7 @@
   display: grid;
   grid-column-gap: 10px;
   border-radius: 0% 20% 0% 0%;
-  width: 320px;
+  /*width: 320px;*/
   padding: 16px;
   background: #fff;
 }
@@ -296,10 +296,16 @@
   border-top-left-radius: 90px;
 }
 
-.contact-me-b {
+.language-list {
+  display: none;
+}
+
+/* Get in Contact */
+.contact-me-c {
   background-image: url(./images/contact-form-shapes-mobile.png);
   background-repeat: no-repeat;
   background-position: top right;
+  
   padding-top: 60px;
 }
 
@@ -413,7 +419,7 @@
     line-height: 28px;
   }
 
-/* Works */
+  /* Works */
   .project {
     display: flex;
     flex-direction: row;
@@ -433,4 +439,61 @@
     width: 544px;
     height: 448px;
   }
+  /* About Myself */
+  .about-myself {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 924px;
+    padding-top: 80px;
+  }
+
+  .about-myself-a {
+    width: 447px;
+    height: 114px;
+    font-size: 60px;
+    line-height: 52px;
+    padding-bottom: 5px;
+  }
+
+  .about-myself-b {
+    width: 447px;
+    height: 392px;
+  }
+
+  .info {
+    width: 447px;
+    height: 102px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 1px;
+  }
+
+  .contact {
+    width: 120px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .languages {
+    width: 684px;
+    height: 360px;
+    padding-left: 80px;
+  }
+
+  .language-list {
+    display: inline;
+    width: 414px;
+    height: 144px;
+  }
+
+  .language-used {
+    display: none;
+  }
+  
+.skills-button {
+  width: 640px;
+  height: 80px;
+}
+
 }

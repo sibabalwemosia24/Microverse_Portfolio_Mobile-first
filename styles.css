@@ -381,12 +381,16 @@ body {
   line-height: 24px;
   color: #396df2;
 }
+@media only screen and (min-width: 768px){
 
-@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .body {
+    margin: 0 auto;
+  }
   /* Toolbar */
   .toolbar {
-    position: fixed;
+    
     width: 1440px;
+    
   }
 
   .hamburger {
@@ -397,6 +401,7 @@ body {
     display: inline;
     width: 259px;
     padding-right: 142px;
+    
   }
 
   .nav-bar-a {
@@ -410,6 +415,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    
   }
 
   .nav-text {
@@ -429,11 +435,15 @@ body {
   }
 
   /* Headline */
+.top-part {
+  margin: 0 auto;
+}
   .headline {
     background-image: url(./images/Headerbg.png);
-    background-repeat: space;
+    background-repeat: no-repeat;
     border-bottom-left-radius: 50%;
     padding-bottom: 310px;
+    background-size: 100%;
   }
 
   .greeting {
@@ -444,6 +454,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    
   }
 
   .bio {
@@ -451,6 +462,7 @@ body {
     height: 98px;
     font-size: 20px;
     line-height: 28px;
+    
   }
 
   /* Works */
@@ -460,9 +472,10 @@ body {
     background-color: #f7f7f9;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 80px;
     padding-top: 90px;
+    
   }
 
   .project {
@@ -471,6 +484,8 @@ body {
     justify-content: space-between;
     width: 1156px;
     height: 496px;
+    margin: 30px;
+    background-color: #fff;
   }
 
   .project-b {
@@ -478,6 +493,7 @@ body {
     flex-direction: row-reverse;
     width: 1156px;
     height: 496px;
+    
   }
 
   .project-screenshot {
@@ -549,7 +565,7 @@ body {
     grid-gap: 100px;
     width: 1440px;
     height: 860px;
-    margin: auto;
+   
   }
 
   .contact-me-b {
@@ -560,7 +576,7 @@ body {
     align-content: center;
     width: 1440px;
     height: 900px;
-    margin: auto;
+    
   }
 
   .contact-b {

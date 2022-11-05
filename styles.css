@@ -445,6 +445,7 @@
     width: 544px;
     height: 448px;
   }
+  
   /* About Myself */
   .about-myself {
     display: flex;
@@ -481,6 +482,7 @@
     font-size: 16px;
     line-height: 24px;
   }
+  
   .languages {
     width: 684px;
     height: 360px;
@@ -519,6 +521,7 @@
     width: 1440px;
     height: 860px;
   }
+  
   .contact-b {
     display: flex;
     flex-direction: column;
@@ -527,6 +530,7 @@
     height: 577px;
     padding-left: 30px;
   }
+  
   .text-boxes {
     display: grid;
     grid-template-rows: 60px 80px 150px;

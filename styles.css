@@ -415,7 +415,7 @@ body {
   .nav-text {
     text-decoration: none;
   }
-  
+
   .nav-text:hover {
     color: #344563;
   }
@@ -579,7 +579,7 @@ grid-gap: 100px;
     width: 400px;
     height: 100vh;
    padding: none;
-    
+
   }
 
 }
